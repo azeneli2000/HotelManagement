@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DsDhoma" targetNamespace="http://www.tempuri.org/DsDhoma.xsd" xmlns:mstns="http://www.tempuri.org/DsDhoma.xsd" xmlns="http://www.tempuri.org/DsDhoma.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DsDhoma" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="DHOMA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_DHOMA" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="DHOMA_EMRI" type="xs:string" />
+              <xs:element name="ID_KATEGORIA" type="xs:int" />
+              <xs:element name="DHOMA_GJENDJA" type="xs:string" />
+              <xs:element name="NR_KREVATESH" type="xs:int" />
+              <xs:element name="ID_REZERVIMI" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

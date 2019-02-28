@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="General">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Hotel" type="xs:string" minOccurs="0" />
+                <xs:element name="Adrese" type="xs:string" minOccurs="0" />
+                <xs:element name="Nr.Tel" type="xs:string" minOccurs="0" />
+                <xs:element name="Website" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="KodFiskal" type="xs:string" minOccurs="0" />
+                <xs:element name="MesazhQendrimi" type="xs:string" minOccurs="0" />
+                <xs:element name="Grupi" type="xs:string" minOccurs="0" />
+                <xs:element name="Agjensia" type="xs:string" minOccurs="0" />
+                <xs:element name="DhomaEmri" type="xs:string" minOccurs="0" />
+                <xs:element name="DtMarrje" type="xs:string" minOccurs="0" />
+                <xs:element name="DtDorezim" type="xs:string" minOccurs="0" />
+                <xs:element name="Interval" type="xs:string" minOccurs="0" />
+                <xs:element name="Cmimi" type="xs:int" minOccurs="0" />
+                <xs:element name="TotaliDhome" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Detyrime">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Grupi" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:string" minOccurs="0" />
+                <xs:element name="Emri" type="xs:string" minOccurs="0" />
+                <xs:element name="Vlera" type="xs:string" minOccurs="0" />
+                <xs:element name="Totali" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <General>
+    <Hotel>Rogner</Hotel>
+    <Adrese>Bulevardi Deshmoret e Kombit</Adrese>
+    <Nr.Tel>042323232323</Nr.Tel>
+    <Website>hotmail.com</Website>
+    <Email>blabla@hotmail.com</Email>
+    <KodFiskal>234050698</KodFiskal>
+    <MesazhQendrimi />
+    <Grupi>Shkolla x</Grupi>
+    <Agjensia>JonaTravel</Agjensia>
+    <DhomaEmri>305</DhomaEmri>
+    <DtMarrje>2006-01-11</DtMarrje>
+    <DtDorezim>2006-01-15</DtDorezim>
+    <Interval>4 dite</Interval>
+    <Cmimi>3000</Cmimi>
+    <TotaliDhome>12000</TotaliDhome>
+  </General>
+  <Detyrime>
+    <Grupi>Shkolla x</Grupi>
+    <ID_KLIENTI>525</ID_KLIENTI>
+    <Emri>Servi Nako</Emri>
+    <Totali>0</Totali>
+  </Detyrime>
+</NewDataSet>

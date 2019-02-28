@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="General">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Hotel" type="xs:string" minOccurs="0" />
+                <xs:element name="Adrese" type="xs:string" minOccurs="0" />
+                <xs:element name="Nr.Tel" type="xs:string" minOccurs="0" />
+                <xs:element name="Website" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="KodFiskal" type="xs:string" minOccurs="0" />
+                <xs:element name="MesazhQendrimi" type="xs:string" minOccurs="0" />
+                <xs:element name="Grupi" type="xs:string" minOccurs="0" />
+                <xs:element name="Agjensia" type="xs:string" minOccurs="0" />
+                <xs:element name="TotaliDhomat" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Dhomat">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Grupi" type="xs:string" minOccurs="0" />
+                <xs:element name="Emri" type="xs:string" minOccurs="0" />
+                <xs:element name="Vlera" type="xs:string" minOccurs="0" />
+                <xs:element name="TotaliDhoma" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//General" />
+        <xs:field xpath="Grupi" />
+      </xs:unique>
+      <xs:keyref name="GeneralDhoma" refer="Constraint1">
+        <xs:selector xpath=".//Dhomat" />
+        <xs:field xpath="Grupi" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <General>
+    <Hotel>Rogner</Hotel>
+    <Adrese>Bulevardi Deshmoret e Kombit</Adrese>
+    <Nr.Tel>042323232323</Nr.Tel>
+    <Website>hotmail.com</Website>
+    <Email>blabla@hotmail.com</Email>
+    <KodFiskal>234050698</KodFiskal>
+    <MesazhQendrimi />
+    <Grupi>Shkolla x</Grupi>
+    <Agjensia>JonaTravel</Agjensia>
+    <TotaliDhomat>12800</TotaliDhomat>
+  </General>
+  <Dhomat>
+    <Grupi>Shkolla x</Grupi>
+    <Emri>G1			2006-01-11	2006-01-15</Emri>
+  </Dhomat>
+  <Dhomat>
+    <Grupi>Shkolla x</Grupi>
+    <Emri>	Intervali:</Emri>
+    <Vlera>4 dite</Vlera>
+  </Dhomat>
+  <Dhomat>
+    <Grupi>Shkolla x</Grupi>
+    <Emri>	Cmimi:</Emri>
+    <Vlera>3200</Vlera>
+  </Dhomat>
+  <Dhomat>
+    <Grupi>Shkolla x</Grupi>
+    <Emri>	Detyrime te tjera te dhomes:</Emri>
+    <Vlera>0</Vlera>
+    <TotaliDhoma>12800</TotaliDhoma>
+  </Dhomat>
+</NewDataSet>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/ShfaqBilanciPerDatenEdhene.xsd"
+	xmlns:mstns="http://tempuri.org/ShfaqBilanciPerDatenEdhene.xsd" xmlns="http://tempuri.org/ShfaqBilanciPerDatenEdhene.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="ShfaqBilancinPerDatenEdhene" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Table1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ARKA_SASIA" type="xs:string" minOccurs="0" />
+							<xs:element name="KOMENT" type="xs:string" minOccurs="0" />
+							<xs:element name="ID_KLIENTI" type="xs:string" minOccurs="0" />
+							<xs:element name="EMRI" type="xs:string" minOccurs="0" />
+							<xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+							<xs:element name="PAGESA" type="xs:string" minOccurs="0" />
+							<xs:element name="PERQINDJA" type="xs:string" minOccurs="0" />
+							<xs:element name="NR" type="xs:string" minOccurs="0" />
+							<xs:element name="ID_DETYRIMI" type="xs:string" minOccurs="0" />
+							<xs:element name="SASIA_DOUBLE" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

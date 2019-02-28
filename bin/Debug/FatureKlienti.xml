@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="General">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Hotel" type="xs:string" minOccurs="0" />
+                <xs:element name="Adrese" type="xs:string" minOccurs="0" />
+                <xs:element name="Nr.Tel" type="xs:string" minOccurs="0" />
+                <xs:element name="Website" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="KodFiskal" type="xs:string" minOccurs="0" />
+                <xs:element name="Dhoma" type="xs:string" minOccurs="0" />
+                <xs:element name="DtMarrje" type="xs:string" minOccurs="0" />
+                <xs:element name="DtDorezim" type="xs:string" minOccurs="0" />
+                <xs:element name="Interval" type="xs:string" minOccurs="0" />
+                <xs:element name="Cmim" type="xs:int" minOccurs="0" />
+                <xs:element name="Skonto" type="xs:int" minOccurs="0" />
+                <xs:element name="Gjobe" type="xs:int" minOccurs="0" />
+                <xs:element name="Kapar" type="xs:int" minOccurs="0" />
+                <xs:element name="Total" type="xs:int" minOccurs="0" />
+                <xs:element name="MesazhQendrimi" type="xs:string" minOccurs="0" />
+                <xs:element name="ShumaTotale" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DetyrimeKlienti">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Dhoma" type="xs:string" minOccurs="0" />
+                <xs:element name="Emri1" type="xs:string" minOccurs="0" />
+                <xs:element name="Emri2" type="xs:string" minOccurs="0" />
+                <xs:element name="LlojDetyrimi" type="xs:string" minOccurs="0" />
+                <xs:element name="Sasia" type="xs:string" minOccurs="0" />
+                <xs:element name="Totali" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//General" />
+        <xs:field xpath="Dhoma" />
+      </xs:unique>
+      <xs:keyref name="GeneralDetyrime" refer="Constraint1">
+        <xs:selector xpath=".//DetyrimeKlienti" />
+        <xs:field xpath="Dhoma" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <General>
+    <Hotel>Rogner</Hotel>
+    <Adrese>Bulevardi Deshmoret e Kombit</Adrese>
+    <Nr.Tel>042323232323</Nr.Tel>
+    <Website>hotmail.com</Website>
+    <Email>blabla@hotmail.com</Email>
+    <KodFiskal>234050698</KodFiskal>
+    <Dhoma>111</Dhoma>
+    <DtMarrje>14-05-2006 7:44:00.MD</DtMarrje>
+    <DtDorezim>17-06-2006 7:44:00.MD</DtDorezim>
+    <Interval>3 dite</Interval>
+    <Cmim>2000</Cmim>
+    <Skonto>0</Skonto>
+    <Gjobe>0</Gjobe>
+    <Kapar>0</Kapar>
+    <Total>6000</Total>
+    <MesazhQendrimi>Faleminderit per qendrimin me ne.</MesazhQendrimi>
+    <ShumaTotale>6000</ShumaTotale>
+  </General>
+  <DetyrimeKlienti>
+    <Dhoma>111</Dhoma>
+    <Emri1>Artan Shehu</Emri1>
+    <Emri2>Artan Shehu</Emri2>
+    <LlojDetyrimi />
+    <Sasia />
+    <Totali>0</Totali>
+  </DetyrimeKlienti>
+  <DetyrimeKlienti />
+</NewDataSet>

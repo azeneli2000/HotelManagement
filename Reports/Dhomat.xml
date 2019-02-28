@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <ID_DHOMA>336</ID_DHOMA>
+    <DHOMA_EMRI>111</DHOMA_EMRI>
+    <NR_KREVATESH>1</NR_KREVATESH>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <DHOMA_CIFT>false</DHOMA_CIFT>
+  </Table1>
+</NewDataSet>

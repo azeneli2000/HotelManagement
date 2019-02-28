@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Perkthime">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="Shqip" type="xs:string" minOccurs="0" />
+                <xs:element name="Anglisht" type="xs:string" minOccurs="0" />
+                <xs:element name="Italisht" type="xs:string" minOccurs="0" />
+                <xs:element name="Frengjisht" type="xs:string" minOccurs="0" />
+                <xs:element name="Lloji" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Gjuha">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Gjuhe" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Perkthime>
+    <ID>33</ID>
+    <Shqip>Telefonata Lokale</Shqip>
+    <Anglisht>Local Phone Calls</Anglisht>
+    <Italisht>telefonate locali</Italisht>
+    <Frengjisht>local telephone</Frengjisht>
+    <Lloji>Detyrime</Lloji>
+  </Perkthime>
+  <Perkthime>
+    <ID>34</ID>
+    <Shqip>Saune</Shqip>
+    <Anglisht>Sauna</Anglisht>
+    <Italisht>Sauna</Italisht>
+    <Frengjisht>Saune</Frengjisht>
+    <Lloji>Detyrime</Lloji>
+  </Perkthime>
+  <Perkthime>
+    <ID>35</ID>
+    <Shqip>Telefonata nderkombetare</Shqip>
+    <Anglisht>International Calls</Anglisht>
+    <Italisht>Telefonate Internazionali</Italisht>
+    <Frengjisht>International telephone</Frengjisht>
+    <Lloji>Detyrime</Lloji>
+  </Perkthime>
+  <Perkthime>
+    <ID>38</ID>
+    <Shqip>Pishine</Shqip>
+    <Anglisht>Pool</Anglisht>
+    <Italisht>Piscina</Italisht>
+    <Frengjisht>Pool</Frengjisht>
+    <Lloji>Detyrime</Lloji>
+  </Perkthime>
+  <Perkthime>
+    <ID>MesazhQendrimi</ID>
+    <Shqip>Faleminderit qe rezervuat ne hotelin tone. Jeni te mirepritur</Shqip>
+    <Anglisht />
+    <Italisht />
+    <Frengjisht />
+    <Lloji>Mesazhe</Lloji>
+  </Perkthime>
+  <Perkthime>
+    <ID>MesazhRezervimi</ID>
+    <Shqip>Faleminderit per qendrimin me ne.</Shqip>
+    <Anglisht>Thank you for your stay with us</Anglisht>
+    <Italisht />
+    <Frengjisht />
+    <Lloji>Mesazhe</Lloji>
+  </Perkthime>
+  <Gjuha>
+    <Gjuhe>Anglisht</Gjuhe>
+  </Gjuha>
+</NewDataSet>

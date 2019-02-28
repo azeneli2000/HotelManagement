@@ -1,0 +1,2 @@
+D:\Hotel Managment\Hotel Managment\HotelManagment\bin\Debug\HotelManagment.exe.config
+D:\Hotel Managment\Hotel Managment\HotelManagment\obj\Debug\HotelManagment.exe

@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="General">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Hotel" type="xs:string" minOccurs="0" />
+                <xs:element name="Adrese" type="xs:string" minOccurs="0" />
+                <xs:element name="Nr.Tel" type="xs:string" minOccurs="0" />
+                <xs:element name="Website" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="KodFiskal" type="xs:string" minOccurs="0" />
+                <xs:element name="MesazhQendrimi" type="xs:string" minOccurs="0" />
+                <xs:element name="Relation" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Detyrime">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="Emri" type="xs:string" minOccurs="0" />
+                <xs:element name="Data" type="xs:string" minOccurs="0" />
+                <xs:element name="Vlera" type="xs:int" minOccurs="0" />
+                <xs:element name="Totali" type="xs:int" minOccurs="0" />
+                <xs:element name="Relation" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//General" />
+        <xs:field xpath="Relation" />
+      </xs:unique>
+      <xs:keyref name="GeneralDetyrime" refer="Constraint1">
+        <xs:selector xpath=".//Detyrime" />
+        <xs:field xpath="Relation" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <General>
+    <Hotel>Rogner</Hotel>
+    <Adrese>Bulevardi Deshmoret e Kombit</Adrese>
+    <Nr.Tel>042323232323</Nr.Tel>
+    <Website>hotmail.com</Website>
+    <Email>blabla@hotmail.com</Email>
+    <KodFiskal>234050698</KodFiskal>
+    <MesazhQendrimi>Faleminderit per qendrimin me ne.</MesazhQendrimi>
+    <Relation>1</Relation>
+  </General>
+  <Detyrime>
+    <Emri>Egla Malaj		201	2006-04-05	2006-04-06</Emri>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <ID_KLIENTI>774</ID_KLIENTI>
+    <Emri>	Saune</Emri>
+    <Data>2006-04-05</Data>
+    <Vlera>1000</Vlera>
+    <Totali>1000</Totali>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <Emri>Gazmend Malaj		201	2006-04-05	2006-04-06</Emri>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <ID_KLIENTI>775</ID_KLIENTI>
+    <Emri>	Pishine</Emri>
+    <Data>2006-04-05</Data>
+    <Vlera>1600</Vlera>
+    <Totali>1600</Totali>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <Emri>Lejla Osmani		204	2006-03-29	2006-03-30</Emri>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <ID_KLIENTI>771</ID_KLIENTI>
+    <Emri>	Pishine</Emri>
+    <Data>2006-03-29</Data>
+    <Vlera>1600</Vlera>
+    <Totali>1600</Totali>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <Emri>Linda Neli		202	2006-04-11	2006-04-12</Emri>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <ID_KLIENTI>777</ID_KLIENTI>
+    <Emri>	Saune</Emri>
+    <Data>2006-04-11</Data>
+    <Vlera>7000</Vlera>
+    <Totali>7000</Totali>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <Emri>Mehmet Akif		302	2006-04-11	2006-04-13</Emri>
+    <Relation>1</Relation>
+  </Detyrime>
+  <Detyrime>
+    <ID_KLIENTI>779</ID_KLIENTI>
+    <Emri>	Telefonata nderkombetare</Emri>
+    <Data>2006-04-11</Data>
+    <Vlera>40</Vlera>
+    <Totali>40</Totali>
+    <Relation>1</Relation>
+  </Detyrime>
+</NewDataSet>

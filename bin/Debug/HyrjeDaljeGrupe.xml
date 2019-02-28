@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ADRESA" type="xs:string" minOccurs="0" />
+                <xs:element name="TELEFONI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TARGA" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATA_DALJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KAPARI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_IDENTIFIKIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_LLOJI" type="xs:int" minOccurs="0" />
+                <xs:element name="NR_IDENTIFIKIMI" type="xs:string" minOccurs="0" />
+                <xs:element name="GRUPI" type="xs:string" minOccurs="0" />
+                <xs:element name="AGJENSIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GRUPI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DHOMA_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIMI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KAT_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMER_LLOJI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KATEGORIA" type="xs:int" minOccurs="0" />
+                <xs:element name="SKONTO" type="xs:int" minOccurs="0" />
+                <xs:element name="GJOBA" type="xs:int" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DATA_KAPARI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="VENDLINDJA" type="xs:string" minOccurs="0" />
+                <xs:element name="SHTETESIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGUAR_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGESA" type="xs:double" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STR" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

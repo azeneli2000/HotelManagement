@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ADRESA" type="xs:string" minOccurs="0" />
+                <xs:element name="TELEFONI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TARGA" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATA_DALJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KAPARI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_IDENTIFIKIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_LLOJI" type="xs:int" minOccurs="0" />
+                <xs:element name="NR_IDENTIFIKIMI" type="xs:string" minOccurs="0" />
+                <xs:element name="GRUPI" type="xs:string" minOccurs="0" />
+                <xs:element name="AGJENSIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GRUPI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DHOMA_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIMI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KAT_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMER_LLOJI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KATEGORIA" type="xs:int" minOccurs="0" />
+                <xs:element name="SKONTO" type="xs:int" minOccurs="0" />
+                <xs:element name="GJOBA" type="xs:int" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DATA_KAPARI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="VENDLINDJA" type="xs:string" minOccurs="0" />
+                <xs:element name="SHTETESIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGUAR_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STRORE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="KLIENTI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ADRESA" type="xs:string" minOccurs="0" />
+                <xs:element name="TELEFONI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TARGA" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATA_DALJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KAPARI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_IDENTIFIKIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_LLOJI" type="xs:int" minOccurs="0" />
+                <xs:element name="NR_IDENTIFIKIMI" type="xs:string" minOccurs="0" />
+                <xs:element name="GRUPI" type="xs:string" minOccurs="0" />
+                <xs:element name="AGJENSIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GRUPI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DHOMA_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIMI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KAT_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMER_LLOJI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KATEGORIA" type="xs:int" minOccurs="0" />
+                <xs:element name="SKONTO" type="xs:int" minOccurs="0" />
+                <xs:element name="GJOBA" type="xs:int" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DATA_KAPARI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="VENDLINDJA" type="xs:string" minOccurs="0" />
+                <xs:element name="SHTETESIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGUAR_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERGJEGJES" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KLIENTI_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="MINDATA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAXDATA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI_STR" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <EMRI>asd</EMRI>
+    <MBIEMRI>sad</MBIEMRI>
+    <DATELINDJA>2006-05-16T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-16T17:34:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-07-16T17:34:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>10</KAPARI>
+    <ID_IDENTIFIKIMI>816</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>asd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>336</ID_DHOMA>
+    <DHOMA_EMRI>111</DHOMA_EMRI>
+    <CMIMI>1000</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pasaporte</EMER_LLOJI>
+    <ID_KLIENTI>802</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>true</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-16T17:34:00.7670000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>0</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>16-05-2006 5:34:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>16-07-2006 5:34:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>16-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>16-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>16-07-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <KLIENTI>
+    <EMRI>asd sad</EMRI>
+    <MBIEMRI>sad</MBIEMRI>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <KAPARI>10</KAPARI>
+    <NR_IDENTIFIKIMI>asd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>336</ID_DHOMA>
+    <DHOMA_EMRI>111</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pasaporte</EMER_LLOJI>
+    <ID_KLIENTI>802</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>true</KLIENT_HOTELI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <DATA_HYRJE_STR>16-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>16-07-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>16-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>16-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>16-07-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>802</PERGJEGJES>
+    <ID_KLIENTI_STR>802</ID_KLIENTI_STR>
+    <MINDATA>2006-05-16T17:34:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-07-16T17:34:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>True</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR />
+  </KLIENTI>
+</NewDataSet>

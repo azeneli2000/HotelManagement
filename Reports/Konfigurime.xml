@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Konfigurime>
+  <Shto_Rezervime>1</Shto_Rezervime>
+  <Modifiko_Fshi_Rezervime>1</Modifiko_Fshi_Rezervime>
+  <Fut_Rezervim_ne_dhome>0</Fut_Rezervim_ne_dhome>
+  <Merr_dhome>0</Merr_dhome>
+  <Dorezo_dhome>0</Dorezo_dhome>
+  <Modifiko_Fshi_veprim>0</Modifiko_Fshi_veprim>
+  <Hidh_detyrime>0</Hidh_detyrime>
+  <Vizualizimi_i_gjendjes_se_dhomave>0</Vizualizimi_i_gjendjes_se_dhomave>
+  <Vizualizimi_i_dhomave_te_pashlyera>0</Vizualizimi_i_dhomave_te_pashlyera>
+  <Vizualizimi_i_dhomave_ne_perdorim>0</Vizualizimi_i_dhomave_ne_perdorim>
+  <Gjendja_ditore_e_arkes>0</Gjendja_ditore_e_arkes>
+  <Shpenzime>0</Shpenzime>
+  <Bilanci>0</Bilanci>
+  <Konfigurimi_i_kategorive>0</Konfigurimi_i_kategorive>
+  <Konfigurimi_i_dhomave>0</Konfigurimi_i_dhomave>
+  <Konfigurimi_i_cmimeve>0</Konfigurimi_i_cmimeve>
+  <Konfigurimi_i_identifikimeve>0</Konfigurimi_i_identifikimeve>
+  <Konfigurimi_i_detyrimeve>0</Konfigurimi_i_detyrimeve>
+  <Konfigurimi_i_pagesave>0</Konfigurimi_i_pagesave>
+  <Hyrje_ne_Hotel>0</Hyrje_ne_Hotel>
+  <Rezervime_te_vlefshme>0</Rezervime_te_vlefshme>
+  <Detyrime>0</Detyrime>
+  <Hyrje_daljet_ne_hotel>0</Hyrje_daljet_ne_hotel>
+  <Alarm>0</Alarm>
+  <Perkthime>0</Perkthime>
+  <Kontrollo_sistemin>0</Kontrollo_sistemin>
+</Konfigurime>

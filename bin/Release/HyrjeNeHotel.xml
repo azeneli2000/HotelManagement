@@ -1,0 +1,908 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="sq-AL" msdata:EnforceConstraints="False">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ADRESA" type="xs:string" minOccurs="0" />
+                <xs:element name="TELEFONI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TARGA" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATA_DALJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KAPARI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_IDENTIFIKIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_LLOJI" type="xs:int" minOccurs="0" />
+                <xs:element name="NR_IDENTIFIKIMI" type="xs:string" minOccurs="0" />
+                <xs:element name="GRUPI" type="xs:string" minOccurs="0" />
+                <xs:element name="AGJENSIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GRUPI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DHOMA_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIMI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KAT_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMER_LLOJI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KATEGORIA" type="xs:int" minOccurs="0" />
+                <xs:element name="SKONTO" type="xs:int" minOccurs="0" />
+                <xs:element name="GJOBA" type="xs:int" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DATA_KAPARI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="VENDLINDJA" type="xs:string" minOccurs="0" />
+                <xs:element name="SHTETESIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGUAR_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STRORE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="KLIENTI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="MBIEMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ADRESA" type="xs:string" minOccurs="0" />
+                <xs:element name="TELEFONI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMAIL" type="xs:string" minOccurs="0" />
+                <xs:element name="TARGA" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DATA_DALJE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KAPARI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_IDENTIFIKIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_LLOJI" type="xs:int" minOccurs="0" />
+                <xs:element name="NR_IDENTIFIKIMI" type="xs:string" minOccurs="0" />
+                <xs:element name="GRUPI" type="xs:string" minOccurs="0" />
+                <xs:element name="AGJENSIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_GRUPI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DHOMA_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIMI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KAT_EMRI" type="xs:string" minOccurs="0" />
+                <xs:element name="EMER_LLOJI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_KLIENTI" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KATEGORIA" type="xs:int" minOccurs="0" />
+                <xs:element name="SKONTO" type="xs:int" minOccurs="0" />
+                <xs:element name="GJOBA" type="xs:int" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DATA_KAPARI" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="VENDLINDJA" type="xs:string" minOccurs="0" />
+                <xs:element name="SHTETESIA" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI" type="xs:int" minOccurs="0" />
+                <xs:element name="PAGUAR_DHOMA" type="xs:int" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATELINDJA_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_HYRJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DALJE_STRORE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERGJEGJES" type="xs:int" minOccurs="0" />
+                <xs:element name="ID_KLIENTI_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="MINDATA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MAXDATA" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="KLIENT_HOTELI_STR" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_REZERVIMI_STR" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <EMRI>Orinda</EMRI>
+    <MBIEMRI>huta</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-04-02T16:50:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-04-04T16:50:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>849</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>sdd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <CMIMI>2000</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>835</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-04-02T16:50:00.5700000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-04-2006 4:50:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-04-2006 4:50:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-04-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-04-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Ola</EMRI>
+    <MBIEMRI>Shehu</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-04-02T16:50:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-04-04T16:50:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>2500</KAPARI>
+    <ID_IDENTIFIKIMI>848</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>fdf</NR_IDENTIFIKIMI>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <CMIMI>2000</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>834</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>200</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-04-02T16:50:00.8130000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-04-2006 4:50:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-04-2006 4:50:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-04-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-04-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Bledi</EMRI>
+    <MBIEMRI>Proko</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA>L : Liri</ADRESA>
+    <TELEFONI>03456895</TELEFONI>
+    <EMAIL>bledi@yahoo.com</EMAIL>
+    <TARGA>FR 56546</TARGA>
+    <DATA_HYRJE>2006-05-02T16:30:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-02T16:30:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>1000</KAPARI>
+    <ID_IDENTIFIKIMI>828</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>Z 4548686</NR_IDENTIFIKIMI>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>814</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>2000</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:30:00.5770000+02:00</DATA_KAPARI>
+    <VENDLINDJA>Fier</VENDLINDJA>
+    <SHTETESIA>Alb</SHTETESIA>
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:30:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>02-05-2006 4:30:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>02-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Erida</EMRI>
+    <MBIEMRI>Proko</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:30:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-02T16:30:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>829</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>Z 555554</NR_IDENTIFIKIMI>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>815</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:30:00.8830000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:30:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>02-05-2006 4:30:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>02-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Denisa</EMRI>
+    <MBIEMRI>Sauku</MBIEMRI>
+    <DATELINDJA>2006-05-03T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:38:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-04T16:38:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>6600</KAPARI>
+    <ID_IDENTIFIKIMI>879</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>4545</NR_IDENTIFIKIMI>
+    <ID_DHOMA>291</ID_DHOMA>
+    <DHOMA_EMRI>102</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>865</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:38:00.6530000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <ID_REZERVIMI>262</ID_REZERVIMI>
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:38:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006 4:38:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>03-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Mira</EMRI>
+    <MBIEMRI>Hysi</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:54:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-03T16:54:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>850</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>asaa</NR_IDENTIFIKIMI>
+    <ID_DHOMA>292</ID_DHOMA>
+    <DHOMA_EMRI>103</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>836</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:54:00.8900000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:54:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>03-05-2006 4:54:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>03-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Poljana</EMRI>
+    <MBIEMRI>Veizi</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:54:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-03T16:54:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>851</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>sdsdsd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>292</ID_DHOMA>
+    <DHOMA_EMRI>103</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>837</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:54:00.2030000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:54:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>03-05-2006 4:54:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>03-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Taulant</EMRI>
+    <MBIEMRI>Melo</MBIEMRI>
+    <DATELINDJA>1980-09-05T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA>Bulevardi Bajram Curri</ADRESA>
+    <TELEFONI>0692456896</TELEFONI>
+    <EMAIL>TR 1212 A</EMAIL>
+    <TARGA>taulantmelo@gmail.com</TARGA>
+    <DATA_HYRJE>2006-05-05T12:57:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-07T12:57:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>1500</KAPARI>
+    <ID_IDENTIFIKIMI>880</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>Z 14354546</NR_IDENTIFIKIMI>
+    <ID_DHOMA>292</ID_DHOMA>
+    <DHOMA_EMRI>103</DHOMA_EMRI>
+    <CMIMI>3300</CMIMI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>866</ID_KLIENTI>
+    <ID_KATEGORIA>32</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-05T12:57:00.9270000+02:00</DATA_KAPARI>
+    <VENDLINDJA>Tirane</VENDLINDJA>
+    <SHTETESIA>Shqiptare</SHTETESIA>
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>05-05-2006 12:57:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>07-05-2006 12:57:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>05-09-1980 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>05-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>07-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Ilir</EMRI>
+    <MBIEMRI>Bexheti</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:42:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-04T16:42:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>4600</KAPARI>
+    <ID_IDENTIFIKIMI>838</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>adad</NR_IDENTIFIKIMI>
+    <ID_DHOMA>308</ID_DHOMA>
+    <DHOMA_EMRI>301</DHOMA_EMRI>
+    <CMIMI>2800</CMIMI>
+    <KAT_EMRI>Kategoria 3</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>824</ID_KLIENTI>
+    <ID_KATEGORIA>34</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:42:00.7470000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:42:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006 4:42:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Ornela</EMRI>
+    <MBIEMRI>Meta</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:42:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-04T16:42:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>839</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>sdsd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>308</ID_DHOMA>
+    <DHOMA_EMRI>301</DHOMA_EMRI>
+    <CMIMI>2800</CMIMI>
+    <KAT_EMRI>Kategoria 3</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>825</ID_KLIENTI>
+    <ID_KATEGORIA>34</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:42:00.8900000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:42:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006 4:42:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Lorena</EMRI>
+    <MBIEMRI>Braho</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI>Z 2455</TELEFONI>
+    <EMAIL>FR 4852</EMAIL>
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:34:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-10T11:31:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>2500</KAPARI>
+    <ID_IDENTIFIKIMI>830</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>Z 54545</NR_IDENTIFIKIMI>
+    <ID_DHOMA>321</ID_DHOMA>
+    <DHOMA_EMRI>d1</DHOMA_EMRI>
+    <CMIMI>2900</CMIMI>
+    <KAT_EMRI>Dhoma me pamje nga deti</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>816</ID_KLIENTI>
+    <ID_KATEGORIA>35</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:34:00.2570000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:34:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>10-05-2006 11:31:00.PD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>10-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Lindi</EMRI>
+    <MBIEMRI>Terpo</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:34:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-10T11:31:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>831</ID_IDENTIFIKIMI>
+    <ID_LLOJI>21</ID_LLOJI>
+    <NR_IDENTIFIKIMI>sdsd</NR_IDENTIFIKIMI>
+    <ID_DHOMA>321</ID_DHOMA>
+    <DHOMA_EMRI>d1</DHOMA_EMRI>
+    <CMIMI>2900</CMIMI>
+    <KAT_EMRI>Dhoma me pamje nga deti</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>817</ID_KLIENTI>
+    <ID_KATEGORIA>35</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:34:00.0870000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:34:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>10-05-2006 11:31:00.PD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>10-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <Table1>
+    <EMRI>Hysen</EMRI>
+    <MBIEMRI>Lamce</MBIEMRI>
+    <DATELINDJA>2006-05-02T00:00:00.0000000+02:00</DATELINDJA>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <DATA_HYRJE>2006-05-02T16:44:00.0000000+02:00</DATA_HYRJE>
+    <DATA_DALJE>2006-05-04T16:44:00.0000000+02:00</DATA_DALJE>
+    <KAPARI>0</KAPARI>
+    <ID_IDENTIFIKIMI>840</ID_IDENTIFIKIMI>
+    <ID_LLOJI>19</ID_LLOJI>
+    <NR_IDENTIFIKIMI>dwewe</NR_IDENTIFIKIMI>
+    <ID_DHOMA>323</ID_DHOMA>
+    <DHOMA_EMRI>d3</DHOMA_EMRI>
+    <CMIMI>2900</CMIMI>
+    <KAT_EMRI>Dhoma me pamje nga deti</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>826</ID_KLIENTI>
+    <ID_KATEGORIA>35</ID_KATEGORIA>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <DATA_KAPARI>2006-05-02T16:44:00.5700000+02:00</DATA_KAPARI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <PAGUAR_DHOMA>1</PAGUAR_DHOMA>
+    <DATA_HYRJE_STR>02-05-2006 4:44:00.MD</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006 4:44:00.MD</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+  </Table1>
+  <KLIENTI>
+    <EMRI>Orinda huta
+Ola Shehu</EMRI>
+    <MBIEMRI>huta
+Shehu</MBIEMRI>
+    <ADRESA>
+</ADRESA>
+    <TELEFONI>
+</TELEFONI>
+    <EMAIL>
+</EMAIL>
+    <TARGA>
+</TARGA>
+    <KAPARI>2500</KAPARI>
+    <NR_IDENTIFIKIMI>sdd
+fdf</NR_IDENTIFIKIMI>
+    <GRUPI>
+</GRUPI>
+    <AGJENSIA>
+</AGJENSIA>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1
+Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate
+Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>835</ID_KLIENTI>
+    <SKONTO>200</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>
+</VENDLINDJA>
+    <SHTETESIA>
+</SHTETESIA>
+    <DATA_HYRJE_STR>02-04-2006
+02-04-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-04-2006
+04-04-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD
+02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-04-2006
+02-04-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-04-2006
+04-04-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>834</PERGJEGJES>
+    <ID_KLIENTI_STR>835
+834</ID_KLIENTI_STR>
+    <MINDATA>2006-04-02T16:50:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-04-04T16:50:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False
+False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>
+</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Bledi Proko
+Erida Proko</EMRI>
+    <MBIEMRI>Proko
+Proko</MBIEMRI>
+    <ADRESA>L : Liri
+</ADRESA>
+    <TELEFONI>03456895
+</TELEFONI>
+    <EMAIL>bledi@yahoo.com
+</EMAIL>
+    <TARGA>FR 56546
+</TARGA>
+    <KAPARI>1000</KAPARI>
+    <NR_IDENTIFIKIMI>Z 4548686
+Z 555554</NR_IDENTIFIKIMI>
+    <GRUPI>
+</GRUPI>
+    <AGJENSIA>
+</AGJENSIA>
+    <ID_DHOMA>290</ID_DHOMA>
+    <DHOMA_EMRI>101</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1
+Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte
+Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>814</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>2000</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>Fier
+</VENDLINDJA>
+    <SHTETESIA>Alb
+</SHTETESIA>
+    <DATA_HYRJE_STR>02-05-2006
+02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>02-05-2006
+02-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD
+02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006
+02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>02-05-2006
+02-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>814</PERGJEGJES>
+    <ID_KLIENTI_STR>814
+815</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:30:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-02T16:30:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False
+False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>
+</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Denisa Sauku</EMRI>
+    <MBIEMRI>Sauku</MBIEMRI>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <KAPARI>6600</KAPARI>
+    <NR_IDENTIFIKIMI>4545</NR_IDENTIFIKIMI>
+    <ID_DHOMA>291</ID_DHOMA>
+    <DHOMA_EMRI>102</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>865</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <ID_REZERVIMI>262</ID_REZERVIMI>
+    <DATA_HYRJE_STR>02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>03-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>865</PERGJEGJES>
+    <ID_KLIENTI_STR>865</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:38:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-04T16:38:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>262</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Mira Hysi
+Poljana Veizi</EMRI>
+    <MBIEMRI>Hysi
+Veizi</MBIEMRI>
+    <ADRESA>
+</ADRESA>
+    <TELEFONI>
+</TELEFONI>
+    <EMAIL>
+</EMAIL>
+    <TARGA>
+</TARGA>
+    <KAPARI>0</KAPARI>
+    <NR_IDENTIFIKIMI>asaa
+sdsdsd</NR_IDENTIFIKIMI>
+    <GRUPI>
+</GRUPI>
+    <AGJENSIA>
+</AGJENSIA>
+    <ID_DHOMA>292</ID_DHOMA>
+    <DHOMA_EMRI>103</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1
+Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte
+Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>836</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>
+</VENDLINDJA>
+    <SHTETESIA>
+</SHTETESIA>
+    <DATA_HYRJE_STR>02-05-2006
+02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>03-05-2006
+03-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD
+02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006
+02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>03-05-2006
+03-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>836</PERGJEGJES>
+    <ID_KLIENTI_STR>836
+837</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:54:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-03T16:54:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False
+False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>
+</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Taulant Melo</EMRI>
+    <MBIEMRI>Melo</MBIEMRI>
+    <ADRESA>Bulevardi Bajram Curri</ADRESA>
+    <TELEFONI>0692456896</TELEFONI>
+    <EMAIL>TR 1212 A</EMAIL>
+    <TARGA>taulantmelo@gmail.com</TARGA>
+    <KAPARI>1500</KAPARI>
+    <NR_IDENTIFIKIMI>Z 14354546</NR_IDENTIFIKIMI>
+    <ID_DHOMA>292</ID_DHOMA>
+    <DHOMA_EMRI>103</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 1</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>866</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>Tirane</VENDLINDJA>
+    <SHTETESIA>Shqiptare</SHTETESIA>
+    <DATA_HYRJE_STR>05-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>07-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>05-09-1980 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>05-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>07-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>866</PERGJEGJES>
+    <ID_KLIENTI_STR>866</ID_KLIENTI_STR>
+    <MINDATA>2006-05-05T12:57:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-07T12:57:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR />
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Ilir Bexheti
+Ornela Meta</EMRI>
+    <MBIEMRI>Bexheti
+Meta</MBIEMRI>
+    <ADRESA>
+</ADRESA>
+    <TELEFONI>
+</TELEFONI>
+    <EMAIL>
+</EMAIL>
+    <TARGA>
+</TARGA>
+    <KAPARI>4600</KAPARI>
+    <NR_IDENTIFIKIMI>adad
+sdsd</NR_IDENTIFIKIMI>
+    <GRUPI>
+</GRUPI>
+    <AGJENSIA>
+</AGJENSIA>
+    <ID_DHOMA>308</ID_DHOMA>
+    <DHOMA_EMRI>301</DHOMA_EMRI>
+    <KAT_EMRI>Kategoria 3
+Kategoria 3</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte
+Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>824</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>
+</VENDLINDJA>
+    <SHTETESIA>
+</SHTETESIA>
+    <DATA_HYRJE_STR>02-05-2006
+02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006
+04-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD
+02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006
+02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006
+04-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>824</PERGJEGJES>
+    <ID_KLIENTI_STR>824
+825</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:42:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-04T16:42:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False
+False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>
+</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Lorena Braho
+Lindi Terpo</EMRI>
+    <MBIEMRI>Braho
+Terpo</MBIEMRI>
+    <ADRESA>
+</ADRESA>
+    <TELEFONI>Z 2455
+</TELEFONI>
+    <EMAIL>FR 4852
+</EMAIL>
+    <TARGA>
+</TARGA>
+    <KAPARI>2500</KAPARI>
+    <NR_IDENTIFIKIMI>Z 54545
+sdsd</NR_IDENTIFIKIMI>
+    <GRUPI>
+</GRUPI>
+    <AGJENSIA>
+</AGJENSIA>
+    <ID_DHOMA>321</ID_DHOMA>
+    <DHOMA_EMRI>d1</DHOMA_EMRI>
+    <KAT_EMRI>Dhoma me pamje nga deti
+Dhoma me pamje nga deti</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte
+Certifikate</EMER_LLOJI>
+    <ID_KLIENTI>816</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA>
+</VENDLINDJA>
+    <SHTETESIA>
+</SHTETESIA>
+    <DATA_HYRJE_STR>02-05-2006
+02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>10-05-2006
+10-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD
+02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006
+02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>10-05-2006
+10-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>816</PERGJEGJES>
+    <ID_KLIENTI_STR>816
+817</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:34:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-10T11:31:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False
+False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR>
+</ID_REZERVIMI_STR>
+  </KLIENTI>
+  <KLIENTI>
+    <EMRI>Hysen Lamce</EMRI>
+    <MBIEMRI>Lamce</MBIEMRI>
+    <ADRESA />
+    <TELEFONI />
+    <EMAIL />
+    <TARGA />
+    <KAPARI>0</KAPARI>
+    <NR_IDENTIFIKIMI>dwewe</NR_IDENTIFIKIMI>
+    <ID_DHOMA>323</ID_DHOMA>
+    <DHOMA_EMRI>d3</DHOMA_EMRI>
+    <KAT_EMRI>Dhoma me pamje nga deti</KAT_EMRI>
+    <EMER_LLOJI>Pashaporte</EMER_LLOJI>
+    <ID_KLIENTI>826</ID_KLIENTI>
+    <SKONTO>0</SKONTO>
+    <GJOBA>0</GJOBA>
+    <KLIENT_HOTELI>false</KLIENT_HOTELI>
+    <VENDLINDJA />
+    <SHTETESIA />
+    <DATA_HYRJE_STR>02-05-2006</DATA_HYRJE_STR>
+    <DATA_DALJE_STR>04-05-2006</DATA_DALJE_STR>
+    <DATELINDJA_STR>02-05-2006 12:00:00.PD</DATELINDJA_STR>
+    <DATA_HYRJE_STRORE>02-05-2006</DATA_HYRJE_STRORE>
+    <DATA_DALJE_STRORE>04-05-2006</DATA_DALJE_STRORE>
+    <PERGJEGJES>826</PERGJEGJES>
+    <ID_KLIENTI_STR>826</ID_KLIENTI_STR>
+    <MINDATA>2006-05-02T16:44:00.0000000+02:00</MINDATA>
+    <MAXDATA>2006-05-04T16:44:00.0000000+02:00</MAXDATA>
+    <KLIENT_HOTELI_STR>False</KLIENT_HOTELI_STR>
+    <ID_REZERVIMI_STR />
+  </KLIENTI>
+</NewDataSet>

@@ -1,0 +1,1002 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2EF77EA7-9097-415D-BA06-A075988BF696}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>icons\Hotel Management.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HotelManagment</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HotelManagment</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>HotelManagment.MainForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SHDocVw">
+      <Name>AxInterop.SHDocVw</Name>
+      <HintPath>bin\Debug\AxInterop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DockingSuite">
+      <Name>dockingsuite</Name>
+      <HintPath>..\dockingsuite.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentManager">
+      <Name>DocumentManager</Name>
+      <HintPath>..\DocumentManager.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetWidgets">
+      <Name>DotNetWidgets</Name>
+      <HintPath>..\DotNetWidgets.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SHDocVw">
+      <Name>Interop.SHDocVw</Name>
+      <HintPath>bin\Debug\Interop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common">
+      <Name>Janus.Windows.Common</Name>
+      <HintPath>..\..\Programmi\Janus Systems\Controls for Microsoft .NET\Windows Forms Controls\Bin\v1.0.2500\Janus.Windows.Common.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\janus.windows.gridex</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v2, Version=2.0.1105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Janus.Windows.Common.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX">
+      <Name>janus.windows.gridex</Name>
+      <HintPath>..\..\programmi\janus systems\controls for microsoft .net\windows forms controls\bin\v1.0.2500\janus.windows.gridex.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\janus.windows.gridex</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v2">
+      <Name>janus.windows.ui.v2</Name>
+      <HintPath>d:\smsoft 2.3\bin\janus.windows.ui.v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudioAnalyzer.PrimaryEventCollector">
+      <Name>Microsoft.VisualStudioAnalyzer.PrimaryEventCollector</Name>
+      <HintPath>bin\Debug\Microsoft.VisualStudioAnalyzer.PrimaryEventCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Skanim">
+      <Name>Skanim</Name>
+      <HintPath>bin\Debug\Skanim.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceGrid2">
+      <Name>SourceGrid2</Name>
+      <HintPath>bin\Debug\SourceGrid2.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceLibrary">
+      <Name>SourceLibrary</Name>
+      <HintPath>bin\Debug\SourceLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Name>System.Messaging</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="VisionInfoSolutionLibrary">
+      <Name>VisionInfoSolutionLibrary</Name>
+      <HintPath>..\VisionInfoSolutionLibrary\bin\Debug\VisionInfoSolutionLibrary.dll</HintPath>
+    </Reference>
+    <COMReference Include="AxMSChart20Lib">
+      <Guid>{65E121D4-0C60-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSChart20Lib">
+      <Guid>{65E121D4-0C60-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSDATASRC">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\ZedGraph_Source_v4.2.1\ZedGraph.csproj">
+      <Name>ZedGraph</Name>
+      <Project>{998CE547-E905-4931-91B6-5E0439177E7E}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APITimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Arka.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\BussinessDelegate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\CmimiDhoma.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\DbController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\DbManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BusDatService\DbMapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Detyrime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Dhoma.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Identifikimi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Inicializimi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\InputController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Kategorite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Klienti.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Perdorues.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Perkthime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\PrintData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Raporte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Rezervimi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusDatService\Shpenzime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataSets\DsDhoma.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsDhoma.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsKliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsKliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bilanc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BilancMujor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BrowserContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Detyrimet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dhoma1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dhoma2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DhomaPashlyera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DhomatNePerdorim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DorezoDhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FaqeKryesore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmGjendjeDhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmModifikimeVeprimeKlient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPagesaGrupi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPerdorues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTeDhenaHoteli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FutRezervimNeDhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GjendjeDitore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HidhDetyrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HyrjeNeHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Identifikimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Integriteti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KonfiguroCmime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Kontakt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KryejShpenzim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MerrDhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MesazhAlarmi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ModifikoRezervim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NumriDhomave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NumriSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pagesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Perkthime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintBilancMujorPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintBilancPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Printim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RaporteDetyrimesh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RaporteKlienteDale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RestoreDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rezervime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RezervimeVlefshme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rregjistrimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reports\CrBilancDitor.cs">
+      <DependentUpon>CrBilancDitor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrBilancMujor.cs">
+      <DependentUpon>CrBilancMujor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrBilancSipasDatave.cs">
+      <DependentUpon>CrBilancSipasDatave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDetyrimeKliente.cs">
+      <DependentUpon>CrDetyrimeKliente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDetyrimeKlienteAng.cs">
+      <DependentUpon>CrDetyrimeKlienteAng.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDetyrimeKlienteFr.cs">
+      <DependentUpon>CrDetyrimeKlienteFr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDetyrimeKlienteIt.cs">
+      <DependentUpon>CrDetyrimeKlienteIt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDhomaNePerdorim.cs">
+      <DependentUpon>CrDhomaNePerdorim.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDhomat.cs">
+      <DependentUpon>CrDhomat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDhomatEPashlyera.cs">
+      <DependentUpon>CrDhomatEPashlyera.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomaGrup.cs">
+      <DependentUpon>CrDorezoDhomaGrup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomaGrupAng.cs">
+      <DependentUpon>CrDorezoDhomaGrupAng.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomaGrupFr.cs">
+      <DependentUpon>CrDorezoDhomaGrupFr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomaGrupIt.cs">
+      <DependentUpon>CrDorezoDhomaGrupIt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeGrupi.cs">
+      <DependentUpon>CrDorezoDhomeGrupi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeGrupiAng.cs">
+      <DependentUpon>CrDorezoDhomeGrupiAng.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeGrupiFr.cs">
+      <DependentUpon>CrDorezoDhomeGrupiFr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeGrupiIt.cs">
+      <DependentUpon>CrDorezoDhomeGrupiIt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeKlient.cs">
+      <DependentUpon>CrDorezoDhomeKlient.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeKlientAng.cs">
+      <DependentUpon>CrDorezoDhomeKlientAng.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeKlientFr.cs">
+      <DependentUpon>CrDorezoDhomeKlientFr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoDhomeKlientIt.cs">
+      <DependentUpon>CrDorezoDhomeKlientIt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoGrupPjeserisht.cs">
+      <DependentUpon>CrDorezoGrupPjeserisht.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoGrupPjeserishtAng.cs">
+      <DependentUpon>CrDorezoGrupPjeserishtAng.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoGrupPjeserishtFr.cs">
+      <DependentUpon>CrDorezoGrupPjeserishtFr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrDorezoGrupPjeserishtIt.cs">
+      <DependentUpon>CrDorezoGrupPjeserishtIt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrGrafikMujor.cs">
+      <DependentUpon>CrGrafikMujor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrHyrjeDaljeGrupe.cs">
+      <DependentUpon>CrHyrjeDaljeGrupe.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrHyrjeDaljeKliente.cs">
+      <DependentUpon>CrHyrjeDaljeKliente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrHyrjeNeHotel.cs">
+      <DependentUpon>CrHyrjeNeHotel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrHyrjeNeHotelGrup.cs">
+      <DependentUpon>CrHyrjeNeHotelGrup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrRezervimeVlefshme.cs">
+      <DependentUpon>CrRezervimeVlefshme.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrRezervimeVlefshmeAgjensi.cs">
+      <DependentUpon>CrRezervimeVlefshmeAgjensi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\CrRezervimeVlefshmeEmerMbiemer.cs">
+      <DependentUpon>CrRezervimeVlefshmeEmerMbiemer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="TeDhenaRaporte\Raporti.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DataSets\DsDhoma.xsx">
+      <DependentUpon>DsDhoma.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsKliente.xsx">
+      <DependentUpon>DsKliente.xsd</DependentUpon>
+    </None>
+    <Content Include="App.ico" />
+    <Content Include="DataSets\DsDhoma.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsDhoma.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataSets\DsKliente.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsKliente.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Dll\Janus.Windows.ButtonBar.dll" />
+    <Content Include="Dll\Janus.Windows.ButtonBar.v2.dll" />
+    <Content Include="Dll\Janus.Windows.CalendarCombo.dll" />
+    <Content Include="Dll\Janus.Windows.CalendarCombo.v2.dll" />
+    <Content Include="Dll\Janus.Windows.Common.dll" />
+    <Content Include="Dll\Janus.Windows.Common.v2.dll" />
+    <Content Include="Dll\Janus.Windows.ExplorerBar.dll" />
+    <Content Include="Dll\Janus.Windows.ExplorerBar.v2.dll" />
+    <Content Include="Dll\Janus.Windows.GridEX.dll" />
+    <Content Include="Dll\Janus.Windows.GridEX.v2.dll" />
+    <Content Include="Dll\Janus.Windows.Schedule.dll" />
+    <Content Include="Dll\Janus.Windows.Schedule.v2.dll" />
+    <Content Include="Dll\Janus.Windows.TimeLine.dll" />
+    <Content Include="Dll\Janus.Windows.UI.v2.dll" />
+    <Content Include="icons\1.jpg" />
+    <Content Include="icons\Hotel Management.ico" />
+    <Content Include="icons\Hotel Management1.ico" />
+    <Content Include="Konfigurimet.xml" />
+    <EmbeddedResource Include="BusDatService\DbManager.resx">
+      <DependentUpon>DbManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusDatService\DbMapper.resx">
+      <DependentUpon>DbMapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bilanc.resx">
+      <DependentUpon>Bilanc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BilancMujor.resx">
+      <DependentUpon>BilancMujor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BrowserContainer.resx">
+      <DependentUpon>BrowserContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Detyrimet.resx">
+      <DependentUpon>Detyrimet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dhoma1.resx">
+      <DependentUpon>Dhoma1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dhoma2.resx">
+      <DependentUpon>Dhoma2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DhomaPashlyera.resx">
+      <DependentUpon>DhomaPashlyera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DhomatNePerdorim.resx">
+      <DependentUpon>DhomatNePerdorim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DorezoDhome.resx">
+      <DependentUpon>DorezoDhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FaqeKryesore.resx">
+      <DependentUpon>FaqeKryesore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDhome.resx">
+      <DependentUpon>frmDhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmGjendjeDhome.resx">
+      <DependentUpon>frmGjendjeDhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmModifikimeVeprimeKlient.resx">
+      <DependentUpon>frmModifikimeVeprimeKlient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPagesaGrupi.resx">
+      <DependentUpon>frmPagesaGrupi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPerdorues.resx">
+      <DependentUpon>frmPerdorues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTeDhenaHoteli.resx">
+      <DependentUpon>frmTeDhenaHoteli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FutRezervimNeDhome.resx">
+      <DependentUpon>FutRezervimNeDhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GjendjeDitore.resx">
+      <DependentUpon>GjendjeDitore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HidhDetyrime.resx">
+      <DependentUpon>HidhDetyrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyrjeNeHotel.resx">
+      <DependentUpon>HyrjeNeHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Identifikimi.resx">
+      <DependentUpon>Identifikimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Integriteti.resx">
+      <DependentUpon>Integriteti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kategori.resx">
+      <DependentUpon>Kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KonfiguroCmime.resx">
+      <DependentUpon>KonfiguroCmime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Kontakt.resx">
+      <DependentUpon>Kontakt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KryejShpenzim.resx">
+      <DependentUpon>KryejShpenzim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MerrDhome.resx">
+      <DependentUpon>MerrDhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MesazhAlarmi.resx">
+      <DependentUpon>MesazhAlarmi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ModifikoRezervim.resx">
+      <DependentUpon>ModifikoRezervim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumriDhomave.resx">
+      <DependentUpon>NumriDhomave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumriSerial.resx">
+      <DependentUpon>NumriSerial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pagesa.resx">
+      <DependentUpon>Pagesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Perkthime.resx">
+      <DependentUpon>Perkthime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintBilancMujorPrompt.resx">
+      <DependentUpon>PrintBilancMujorPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintBilancPrompt.resx">
+      <DependentUpon>PrintBilancPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Printim.resx">
+      <DependentUpon>Printim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RaporteDetyrimesh.resx">
+      <DependentUpon>RaporteDetyrimesh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RaporteKlienteDale.resx">
+      <DependentUpon>RaporteKlienteDale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reminder.resx">
+      <DependentUpon>Reminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RestoreDataBase.resx">
+      <DependentUpon>RestoreDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rezervime.resx">
+      <DependentUpon>Rezervime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RezervimeVlefshme.resx">
+      <DependentUpon>RezervimeVlefshme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rregjistrimi.resx">
+      <DependentUpon>Rregjistrimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="Reports\CrBilancDitor.resx">
+      <DependentUpon>CrBilancDitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrBilancDitor.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrBilancDitor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrBilancMujor.resx">
+      <DependentUpon>CrBilancMujor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrBilancMujor.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrBilancMujor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrBilancSipasDatave.resx">
+      <DependentUpon>CrBilancSipasDatave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrBilancSipasDatave.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrBilancSipasDatave.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDetyrimeKliente.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDetyrimeKliente.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDetyrimeKlienteAng.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDetyrimeKlienteAng.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDetyrimeKlienteFr.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDetyrimeKlienteFr.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDetyrimeKlienteIt.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDetyrimeKlienteIt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDhomaNePerdorim.resx">
+      <DependentUpon>CrDhomaNePerdorim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDhomaNePerdorim.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDhomaNePerdorim.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDhomat.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDhomat.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDhomatEPashlyera.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDhomatEPashlyera1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomaGrup.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomaGrup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomaGrupAng.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomaGrupAng.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomaGrupFr.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomaGrupFr.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomaGrupIt.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomaGrupIt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeGrupi.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeGrupi.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeGrupiAng.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeGrupiAng.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeGrupiFr.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeGrupiFr.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeGrupiIt.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeGrupiIt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeKlient.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeKlient1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeKlientAng.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeKlientAng.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeKlientFr.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeKlientFr.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoDhomeKlientIt.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoDhomeKlientIt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoGrupPjeserisht.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoGrupPjeserisht.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoGrupPjeserishtAng.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoGrupPjeserishtAng.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoGrupPjeserishtFr.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoGrupPjeserishtFr.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrDorezoGrupPjeserishtIt.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDorezoGrupPjeserishtIt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrGrafikMujor.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrGrafikMujor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrHyrjeDaljeGrupe.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrHyrjeDaljeGrupe.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrHyrjeDaljeKliente.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrHyrjeDaljeKliente.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrHyrjeNeHotel.resx">
+      <DependentUpon>CrHyrjeNeHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrHyrjeNeHotel.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrHyrjeNeHotel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrHyrjeNeHotelGrup.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrHyrjeNeHotelGrup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrRezervimeVlefshme.resx">
+      <DependentUpon>CrRezervimeVlefshme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrRezervimeVlefshme.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrRezervimeVlefshme1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrRezervimeVlefshmeAgjensi.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrRezervimeVlefshmeAgjensi1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrRezervimeVlefshmeEmerMbiemer.rpt">
+      <Generator>CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrRezervimeVlefshmeEmerMbiemer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeDhenaRaporte\ShfaqBilanci.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <DATA>2006-05-16T00:00:00.0000000+02:00</DATA>
+    <SASIA>10</SASIA>
+    <NR>1</NR>
+    <DATA_STR>16-05-2006</DATA_STR>
+  </Table1>
+  <Table1>
+    <DATA>2006-05-16T00:00:00.0000000+02:00</DATA>
+    <SASIA>10</SASIA>
+    <NR>Bilanci</NR>
+  </Table1>
+</NewDataSet>
